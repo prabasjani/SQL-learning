@@ -29,4 +29,15 @@ SELECT * FROM employees
 WHERE salary < 1700;
 
 SELECT * FROM employees
-WHERE salary <= 1600;
+WHERE salary >= 1600;
+
+SELECT * FROM employees
+WHERE emp_id != 3;
+
+-- To find NULL values
+SELECT * FROM employees
+WHERE salary IS NULL;
+
+-- To find NOT NULL values
+SELECT * FROM employees
+WHERE salary IS NOT NULL;
